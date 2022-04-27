@@ -13,6 +13,7 @@ namespace nochso\HtmlCompressTwig;
 use Twig\Environment;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
+use Twig\TwigFilter;
 use WyriHaximus\HtmlCompress\Factory;
 
 /**
