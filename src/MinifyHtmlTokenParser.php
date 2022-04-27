@@ -11,9 +11,9 @@
 namespace nochso\HtmlCompressTwig;
 
 use Twig\Token;
-use Twig\TokenParser;
+use Twig\TokenParser\AbstractTokenParser;
 
-class MinifyHtmlTokenParser extends TokenParser
+class MinifyHtmlTokenParser extends AbstractTokenParser
 {
     public function parse(Token $token)
     {
