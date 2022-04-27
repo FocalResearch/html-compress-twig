@@ -10,7 +10,7 @@
 
 namespace nochso\HtmlCompressTwig;
 
-use Twig\Node;
+use Twig\Node\Node;
 use Twig\Compiler;
 
 class MinifyHtmlNode extends Node
